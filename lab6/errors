@@ -1,0 +1,14 @@
+//errors
+//Janson Chiu 
+//jaachiu
+//lab6
+//This is an errors file describing the errors in the LetterHome.class
+/* 
+1. If you use an number out of the number range for example 5 in number 1, that would be an error. there should be a "not" 
+2. Question two has the same output for option 3 and 4. 4 should be cold instead of hot. 
+3. The third question option 3, returns last weekend instead of next weekend  
+4. The word "books" in the sentence for number 4 is supposed to be "book"
+5. Question number 5 has a missing period for option 2 which is stuff. 
+6. Question number 4 will crash when 6732 is entered. 
+7. Question number 4 should not accept negative numbers as input because there is no negative money. 
+*/
