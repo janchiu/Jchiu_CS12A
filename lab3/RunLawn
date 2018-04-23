@@ -1,0 +1,19 @@
+# RunLawn
+# Janson Chiu
+# jaachiu
+# lab3
+# complies, runs, and deletes Lawn.java
+#! /bin/bash
+# 
+#  RunLawn 
+# 
+
+
+echo "compiling Lawn.java"
+javac Lawn.java >& Lawn-errs
+echo "running Lawn.class"
+java Lawn < Lawn-in > Lawn-out 
+echo "deleting Lawn.class"
+rm Lawn.class 
+
+
