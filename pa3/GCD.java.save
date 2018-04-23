@@ -1,0 +1,45 @@
+// 
+// 
+// 
+// 
+
+import java.util.Scanner;
+
+class GCD{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); 
+        int a = 0;
+            
+        while(a<20){
+            System.out.print("Enter a positive integer: ");
+            while(true){
+                while(!sc.hasNextInt()){
+                    System.out.print("Please enter a positive integer: ");
+                    sc.next();
+                }
+                if (a <10){
+                    int x = sc.nextInt(); 
+                    if (x >0){
+                        break;
+                    }
+                    if (x < 0 ){
+                        System.out.print("Please enter a positive integer: ");
+                    }else {
+                        break;
+                    }
+                }
+                if (a <20){
+                    int y = sc.nextInt();
+                    
+                    if ( y < 0){ 
+                        System.out.print("Please enter a positive integer: ");
+                    } else {
+                        break;
+                    }
+                }
+            }
+            a += 10;
+        }
+        //System.out.println(x+" "+y);
+    }
+}
